@@ -1,0 +1,30 @@
+### .NET ###
+# Build outputs
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# NuGet
+.nuget/
+**/packages/*
+!**/packages/repositories.config
+*.nupkg
+
+# IDE/Editor
+.idea/
+.vscode/
+!.vscode/settings.json
+
+# Local dev files
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
